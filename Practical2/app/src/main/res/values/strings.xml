@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Practical2</string>
+    <string name="Heading">Programming Resources</string>
+    <string name="Description">
+ Android is a mobile operating system developed by Google.
+ It is based on a modified version of the Linux
+ kernel and other open source software, and is
+ designed primarily for touch screen mobile devices
+ such as smart phones and tablets
+</string>
+</resources>
