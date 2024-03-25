@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:stretchColumns="1">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Input1" />
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Input2"/>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Addition" />
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtraction" />
+        <Button
+            android:id="@+id/btnMult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiplication" />
+        <Button
+            android:id="@+id/btnDiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Division" />
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear" />
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="Output"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:fontFamily="casual" />
+    </LinearLayout>
+</LinearLayout>
